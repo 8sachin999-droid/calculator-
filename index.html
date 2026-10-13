@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Hi-Tech Scientific Calculator</title>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@500;600&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<div class="calc">
+  <div class="screen" aria-live="polite">
+    <div class="meta"><span id="mode">DEG</span><span id="mem"></span></div>
+    <div class="expr" id="expr"></div>
+    <div class="res" id="res">0</div>
+  </div>
+  <div class="keys" id="keys"></div>
+  <div class="hist">
+    <h2>History <button id="clr">Clear</button></h2>
+    <ul id="hist"><li class="empty">Your calculations will appear here.</li></ul>
+  </div>
+</div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
